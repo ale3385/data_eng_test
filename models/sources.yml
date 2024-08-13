@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: clinical_trials
+    database: clinical_trials
+    schema: public
+    tables:
+      - name: clinical_trials_data

@@ -1,0 +1,15 @@
+name: 'clinical_trials_project'
+version: '1.0'
+profile: 'clinical_trials_project'
+
+clinical_trials_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: db  # Cambia esto si estás utilizando un contenedor con otro nombre o IP
+      user: user  # El usuario de PostgreSQL
+      password: password  # La contraseña de PostgreSQL
+      dbname: clinical_trials  # El nombre de la base de datos PostgreSQL
+      schema: public  # El esquema donde dbt creará las tablas
+      port: 5432  # El puerto predeterminado de PostgreSQL

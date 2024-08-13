@@ -1,0 +1,10 @@
+name: 'clinical_trials_project'
+version: '1.0'
+
+# Configura el directorio donde dbt buscará los modelos
+models:
+  clinical_trials_project:
+    +materialized: view  # Puedes cambiar a 'table' si prefieres
+
+profile: 'clinical_trials_project'  # Asegúrate de que coincida con el perfil en profiles.yml
+

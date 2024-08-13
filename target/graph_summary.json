@@ -1,0 +1,1 @@
+{"_invocation_id": "d38eea93-831e-477e-a73f-f91f961a8c75", "linked": {"0": {"name": "source.clinical_trials_project.clinical_trials.clinical_trials_data", "type": "source", "succ": [1, 2]}, "1": {"name": "model.clinical_trials_project.simple_model", "type": "model"}, "2": {"name": "model.clinical_trials_project.agg", "type": "model"}}}
